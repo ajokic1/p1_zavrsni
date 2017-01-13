@@ -42,7 +42,7 @@ int main(){
     }
     
     printf ("Kockice vode: %d\n",rez);
-    printf ("Bonus - slika: \n");
+    printf ("Bonus - slika: \n");//nije potrebno
     for(i=mx;i>=0;i--){
         for(j=0;j<br;j++){
             printf("%c",mat[i][j]);
